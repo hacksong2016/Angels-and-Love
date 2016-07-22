@@ -1,0 +1,83 @@
+
+#cover {
+	background: url("images/girl-chasing.jpg") center no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.song {
+	margin-top: 600px;
+}
+
+nav ul {
+	font-size: 20.5px;
+	padding-top: 6px;
+}
+
+a {
+	font-weight: bold;
+}
+
+
+#card-group {
+	margin-top: 20px;
+	
+}
+
+#card-column {
+	margin-top: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+#intro {
+	background: url("images/intro.jpeg") center no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+#intro-content {
+	padding: 45px;
+}
+
+#intro-text {
+	background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 20px;
+}
+
+footer {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  background:gray;
+}
+
+footer p {
+  margin-bottom: .25rem;
+  color:white;
+  font-size: 18px;
+}
+
+footer a {
+	color: green;
+	opacity: 0.8;
+}
+
+#apply {
+	width:100%;
+}
+
+iframe {
+	width: 100%;
+}
+
+#boy {
+	float: left;
+}
+
