@@ -28,4 +28,7 @@ zimme:active-route
 fourseven:scss
 fortawesome:fontawesome
 
+insecure
+autopublish
 
+momentjs:moment

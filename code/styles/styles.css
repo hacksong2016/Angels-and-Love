@@ -81,3 +81,47 @@ iframe {
 	float: left;
 }
 
+.thumbnail{
+	  color: #888;
+	  font-family: Rockwell,Georgia,Arial;
+	  font-size: 12px;
+	  letter-spacing: 0.15em;
+	  /*text-transform: uppercase;*/
+	  background-color: #fff;
+	  display: block;
+	  padding: 4px;
+	  margin-bottom: 5px;
+	  line-height: 1.42857143;
+	  border: 1px solid #ddd;
+	  border-radius: 4px;
+	  -webkit-transition: border .2s ease-in-out;
+	  -o-transition: border .2s ease-in-out;
+	  transition: border .2s ease-in-out;
+	  text-align: center;
+}
+
+iframe{
+	height:485px;
+}
+
+.modal-title{
+	text-align: center;;
+}
+
+#detail{
+	color: #888;
+	  font-family: Rockwell,Georgia,Arial;
+	  letter-spacing: 0.15em;
+	  /*text-transform: uppercase;*/
+	  background-color: #fff;
+	  display: block;
+	  padding: 4px;
+	  margin-bottom: 5px;
+	  line-height: 1.42857143;
+	  border: 1px solid #ddd;
+	  border-radius: 4px;
+	  -webkit-transition: border .2s ease-in-out;
+	  -o-transition: border .2s ease-in-out;
+	  transition: border .2s ease-in-out;
+	  text-align: center;
+}
