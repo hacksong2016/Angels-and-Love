@@ -32,3 +32,5 @@ insecure
 autopublish
 
 momentjs:moment
+accounts-password
+accounts-ui

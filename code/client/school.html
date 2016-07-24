@@ -29,7 +29,7 @@
 						<p>学校规模： {{scale}}</p>
 						<p>地点： {{location}}</p>
 						<p>累计接受捐赠（万）： {{totalReceived}}</p>
-						<a href="/donate" class="btn btn-success-outline" role="button">现在捐赠</a>
+						<a href="/school/{{_id}}" class="btn btn-success-outline" role="button" id="donateNow">现在捐赠</a>
 					</div>
 				</div>
 			  </div> <!-- / col -->
@@ -42,7 +42,17 @@
 	<div class="container">
 	<br>
 		<div class="row" id="detail">
+			<div class="row" id="donate">
+				<h3><strong>这个页面可以接入支付接口，支付宝或银行卡等</strong></h3><br>
+			</div>
+			<div class="input-group">
+				  <span class="input-group-addon"><strong>￥</strong></span>
+				  <input type="text" class="form-control donate-amount" aria-label="Amount" placeholder="请输入捐款金额">
+				  <span class="input-group-addon">.00</span>
+			</div>
+			<a href="/organizations"><button class="btn btn-success btn-md donate" id="apply" type="submit"><i class="fa fa-jpy" aria-hidden="true"></i>  确认捐赠</button></a>
 			<div class="row">
+			<br>
 				<h1 style="text-align:center"><strong>{{data.school}}</strong>简介</h1>
 			</div>
 			<div class="col-md-6"><hr>
@@ -52,8 +62,7 @@
 				<p>联系人： {{data.contact}}</p>
 				<p>组织规模： {{data.scale}}</p>
 				<p>地点： {{data.location}}</p>
-				<p>累计捐赠（万）： {{data.totalReceived}}</p>
-				<a href="/donate" class="btn btn-success btn-lg" role="button">现在捐赠</a><hr>
+				<p>累计捐赠（万）： {{data.totalReceived}}</p><hr>
 				<h2><strong>{{data.school}}</strong>受捐赠时间线：</h2><hr>
 				<h4>时间-公益组织名称-金额</h4>
 				<h4>时间-公益组织名称-金额</h4>
@@ -73,19 +82,3 @@
 	</div><br><br>
 </template>
 
-<!-- <template name="alert">
-	<div class="container">
-		<div class="alert alert-success alert-dismissible" role="alert">
-		  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		  <h4><strong>申请资料：</strong></h4>
-		  <ol>
-		  	<li>学校名称，地址，规模，联系人</li>
-		  	<li>学校累计受捐赠金额及证明材料</li>
-		  	<li>学校简介</li>
-		  	<li>所需捐赠说明</li>
-		  	<li>留守儿童情况说明</li>
-		  </ol>
-		  <p>请将申请资料以邮件形式发送到</p><a href="mailto:someone@example.com?Subject=Angels%20Schools" target="_top" class="alert-link">森林天使公益组织</a>，谢谢！
-		</div>
-	</div>
-</template> -->

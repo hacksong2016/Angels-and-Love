@@ -9,7 +9,7 @@
 }
 
 .song {
-	margin-top: 600px;
+	margin-top: 560px;
 }
 
 nav ul {
@@ -129,11 +129,6 @@ iframe{
 	display: none;
 }
 
-#donate{
-	margin-top: 400px;
-	margin-bottom: 400px;
-}
-
 .card-group{
 	  color: #888;
 	  background-color: #fff;
@@ -147,4 +142,9 @@ iframe{
 	  -o-transition: border .2s ease-in-out;
 	  transition: border .2s ease-in-out;
 	  text-align: center;
+}
+
+#search{
+	margin-left: 20px;
+	padding-top: 5px; 
 }

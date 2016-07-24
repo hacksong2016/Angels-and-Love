@@ -1,13 +1,14 @@
 <template name="caseIntro">
 	<div class="container" id="card-group">
 		<div class="row">
-		{{#each cases}}
+		{{#each donates}}
 		  <div class="col-sm-3">
 		    <div class="card card-block">
-		      <h4 class="card-title">{{title}}</h4>
+		      <h4 class="card-title"><button class="btn btn-success-outline" style="width:100%"><strong>{{title}}</strong></button></h4>
 		      <p class="card-text">捐赠日期：{{createdDate}}</p>
+		      <p class="card-text">捐赠金额：<i class="fa fa-jpy" aria-hidden="true"></i>{{donate}}</p>
 		      <p class="card-text">{{case_detail}}</p>
-		      <a href="/news" class="btn btn-success-outline">查看报道</a>
+		      <!-- <a href="/news" class="btn btn-success-outline">查看报道</a> -->
 		    </div>
 		  </div>
 		 {{/each}}
