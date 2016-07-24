@@ -33,10 +33,25 @@ FlowRouter.route('/news',{
 	}
 });
 
+FlowRouter.route('/donate',{
+	name:'donate',
+	action(){
+		BlazeLayout.render('layout',{main:"donate"});
+	}
+});
+
 FlowRouter.route('/organization/:_id',{
 	name:'single-org',
 	action:function(params){
 		BlazeLayout.render('layout',{main:"organization"});
 		Session.set("orgId", params._id);
+	}
+});
+
+FlowRouter.route('/school/:_id',{
+	name:'single-school',
+	action:function(params){
+		BlazeLayout.render('layout',{main:"school"});
+		Session.set("schoolId", params._id);
 	}
 });

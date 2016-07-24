@@ -1,6 +1,6 @@
 Meteor.startup(function(){
 	if (Organizations.find().count() == 0){
-		for (var i = 0; i <22; i++) {
+		for (var i = 0; i <90; i++) {
 			Organizations.insert(
 				{
 					organization:"光明公益组织",
@@ -21,10 +21,10 @@ Meteor.startup(function(){
 	};// end of if have no 
 
 	if (Schools.find().count() == 0){
-		for (var i = 0; i <22; i++) {
+		for (var i = 0; i <90; i++) {
 			Schools.insert(
 				{
-					schools:"陕西阳光小学",
+					school:"陕西阳光小学",
 					img_src: "http://i.niupic.com/images/2016/07/23/K9oKLg.jpg",
 					img_alt:"陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学陕西阳光小学",
 					contact:"刘加权",
@@ -32,6 +32,7 @@ Meteor.startup(function(){
 					scale:"50-100",
 					location:"陕西省西安市",
 					totalReceived:"900",
+					school_alt:"河南省公益文化传播基金会是国内第一支也是唯一一支以公益宣传为主、以实体救助为辅的公募基金会，是紧密围绕习总书记倡导的“正能量”而发起的一场影响面广、持续性久、保障力大、引导力强的全民公益工程，是践行“中国梦”、实现“国家富强、民族振兴、人民幸福”战略目标的精神基石。河南省公益文化传播基金会[1]  以培育和践行社会主义核心价值观为导向，以“全民公益、全民得益”为宗旨，以公益活动组织、公益广告发布、公益项目孵化和公益传播研究为业务范围，紧密围绕党和政府精神文明建设的方向，突出主旋律，弘扬正能量，为发展具有中国特色社会主义的市场经济营造良好的社会氛围。河南省公益文化传播基金会以“热爱祖国、生态文明、行为规范、传统道德、勤俭节约、团结友善、敬业奉献、诚实守信”为公益主题，并向社会广泛征集、随时补充公益主题。也可根据企业实际需要，设立“交通安全”、 “食品安全”等与企业经营相关的专项公益计划。相关主题由“中国公益传播研究院”细化为不同的传播形式，利用“中国公益传媒联盟”的媒介优势，进行全国范围的强势传播和专业渠道的细分传播。热忱欢迎社会各界支持、监督我们的工作，与我会开展交流、合作，协力传播“大美、大善、大爱”的公益理念，温暖中原，影响全国。",					
 					reveive:{
 
 					}
@@ -42,7 +43,7 @@ Meteor.startup(function(){
 	};// end of if have no 
 
 	if (Volunteers.find().count() == 0){
-		for (var i = 0; i <22; i++) {
+		for (var i = 0; i <90; i++) {
 				Volunteers.insert(
 				{
 					volunteer:"林中林",
@@ -55,6 +56,32 @@ Meteor.startup(function(){
 				}	
 			)// end of insert 
 		}// end of if have no 
+	};
+
+	if (News.find().count() == 0){
+		for (var i = 0; i <90; i++) {
+				News.insert(
+				{
+					title:"贵阳山区留守儿童公益活动",
+					img_src: "http://i.niupic.com/images/2016/07/23/K9oKLg.jpg",
+					img_alt:"贵阳山区留守儿童公益活动",
+					createdOn:new Date(),
+					news_detail:"在留守家庭中，父母需外出到城市打工以维持生计，但由于无法担负过高的城市生活成本而不能接孩子进城或留在身边。但其出现的社会现象是该时期留守在家的儿童正处于成长发育时期，由于与父母的分开而缺少必要的思想指导和观念的塑造"
+				}	
+			)// end of insert 
+		}// end of if have no 
+	};
+
+
+	if (Cases.find().count() == 0){
+		for (var i = 0; i <90; i++) {
+				Cases.insert(
+				{
+					title:"光明企业-阳光小学",
+					createdOn:new Date(),
+					case_detail:"阳光小学的留守儿童得到了来自光明企业的资助，企业帮助提供免费午餐和晚餐，提供校车等。"
+				}	
+			)// end of insert 
+		}// end of if have no 
 	}
-		
 });
