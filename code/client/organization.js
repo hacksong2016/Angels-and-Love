@@ -7,12 +7,30 @@ Template.organizations.helpers({
 
 	createdDate:function(){
 		return moment(this.createdOn).format('YYYY-MM-DD, h:mm:ss a');
+	},
+
+	isVolunteer:function(){
+		if(Meteor.userId() == "mnbvcxz1234567890"){
+			return true;
+		}
+	},
+
+	isSchool:function(){
+		if(Meteor.userId() == "0987654321asdfghjkl" || Meteor.userId() == "0987654321asdfghjkl02"){
+			return true;
+		}
 	}
 })
 
 Template.organization.helpers({
 	data:function(){
 		return Organizations.findOne({"_id":Session.get("orgId")});
+	},
+
+	isSchool:function(){
+		if(Meteor.userId() == "0987654321asdfghjkl" || Meteor.userId() == "0987654321asdfghjkl02"){
+			return true;
+		}
 	}
 })
 
@@ -30,8 +48,11 @@ Template.organizations.events({
   }, 
 
   'click .org_apply':function(event){
-  	console.log("helloworld");
-  	$("#add_new_org").modal('show');
+  	$("#add_new_organization").modal('show');
+  },
+
+  'click .org_create':function(event){
+  	$("#add_new_org").modal("show");
   }
  
 })
