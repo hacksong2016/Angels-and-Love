@@ -20,10 +20,10 @@
 ###公益组织选择现在捐赠按钮，输入捐赠金额捐赠成功后，会在该留守儿童学校与公益组织之间建立桥梁，并展示在留守儿童学校首页
 
 #####相关截图
-<img src="/code/public/snapshot/home.png">
-<img src="/code/public/snapshot/org.png">
-<img src="/code/public/snapshot/org-school.png">
-<img src="/code/public/snapshot/org-volunteer.png">
-<img src="/code/public/snapshot/vol-volunteer.png">
-<img src="/code/public/snapshot/donate.png">
+<img src="code/public/snapshot/home.png">
+<img src="code/public/snapshot/org.png">
+<img src="code/public/snapshot/org-school.png">
+<img src="code/public/snapshot/org-volunteer.png">
+<img src="code/public/snapshot/vol-volunteer.png">
+<img src="code/public/snapshot/donate.png">
 
