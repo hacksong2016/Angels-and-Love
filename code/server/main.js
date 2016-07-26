@@ -17,9 +17,9 @@ Meteor.startup(function(){
 			);// end of insert
 			Organizations.insert(
 				{
-					organization:"香港位能集团",
+					organization:"香港伟能集团",
 					img_src: "http://i.niupic.com/images/2016/07/23/K9oKLg.jpg",
-					img_alt:"香港未能集团是一家上市公司，成立于1992年，公司致力于慈善和公益事业已有多年。",
+					img_alt:"香港伟能集团是一家上市公司，成立于1992年，公司致力于慈善和公益事业已有多年。",
 					contact:"戴英文",
 					createdOn:new Date(),
 					createdBy:"1234567890poiuytrewq02",
@@ -73,7 +73,7 @@ Meteor.startup(function(){
 		for (var i = 0; i <1; i++) {
 				Volunteers.insert(
 				{
-					volunteer:"林中林",
+					volunteer:"林雅晴",
 					img_src: "http://i.niupic.com/images/2016/07/23/K9oKLg.jpg",
 					img_alt:"我是志愿者，主要服务地区是福建省主要服务地区是福建省主要服务地区是福建省主要服务地区是福建省主要服务地区是福建省主要服务地区是福建省主要服务地区是福建省",
 					createdOn:new Date(),
