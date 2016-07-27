@@ -21,7 +21,7 @@
 
 ###3. 公益组织选择现在捐赠按钮，输入捐赠金额捐赠成功后，会在该留守儿童学校与公益组织之间建立桥梁，并展示在留守儿童学校首页
 
-#####<a href="http://v.youku.com/v_show/id_XMTY1OTc5MzI5Mg==.html#paction">DEMO</a>
+#####<a href="http://v.youku.com/v_show/id_XMTY1OTc5MzI5Mg==.html#paction">视频DEMO</a>
 #####相关截图
 <img src="code/public/snapshot/home.png">
 <img src="code/public/snapshot/org.png">
